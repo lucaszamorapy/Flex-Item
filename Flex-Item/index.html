@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Item | Flex Grow</title>
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>flex-grow: 0;</h1>
+    <section class="container">
+        <div class="item grow0">1</div>
+        <div class="item grow0">2</div>
+        <div class="item grow0">3</div>
+    </section>
+
+    <h1>flex-grow: 1;</h1>
+    <section class="container">
+        <div class="item grow1">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow1">3</div>
+    </section>
+
+    <h1>flex-grow: 2;</h1>
+    <section class="container column">
+        <div class="item grow2">1</div>
+        <div class="item grow2">2</div>
+        <div class="item grow2">3</div>
+    </section>
+
+    <h1>flex-grow: 1; // conteúdo largo</h1>
+    <section class="container column-reverse">
+        <div class="item grow1">1</div>
+        <div class="item grow1">TestandoTestando2</div>
+        <div class="item grow1">3</div>
+    </section>
+
+    <h1>flex-grow: (misturado);</h1>
+    <section class="container column-reverse">
+        <div class="item grow0">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow2">3</div>
+    </section>
+
+    <section class="botoes">
+        <button class="botao"><a href="index.html">Anterior</a></button>
+        <button class="botao"><a href="flex-basis.html">Próximo</a></button>
+    </section>
+    
+</body>
+</html>

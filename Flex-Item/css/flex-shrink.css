@@ -1,0 +1,42 @@
+.shrink-1 {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.shrink-3 {
+	flex-grow: 1;
+	flex-shrink: 3;
+}
+
+.shrink-1-basis {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+}
+
+.shrink-0-basis {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 150px;
+}
+
+.shrink-3-basis {
+	flex-grow: 1;
+	flex-shrink: 3;
+	flex-basis: 150px;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-shrink-1, .misturado, .flex-shrink-2, .flex-shrink-3 {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 375px) {
+    .flex-shrink-1, .misturado, .flex-shrink-2, .flex-shrink-3 {
+        overflow-x: scroll;
+    }
+}
